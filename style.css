@@ -1,0 +1,280 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+body{
+    background-color : black;
+    color : white;
+}
+.main{
+    background-image : url('IMG-20240728-WA0001.jpg');
+    background-position : center center;
+    background-size : max(1200px,100vw);
+    background-repeat : no-repeat;
+    height : 375px;
+    position : relative;
+}
+.main .box{
+    height : 375px;
+    width : 100%;
+    opacity : 0.69;
+    position : absolute;
+    top : 0;
+    background-color : black;
+}
+nav {
+    max-width : 85vw;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    margin : auto;
+    height : 100px;
+    position : relative;
+    z-index : 10;
+}
+.btn{
+    width : 50x;
+    height : 50px;
+    background-color : red;
+    text-align : center;
+    color : white;
+    border-radius : 5px;
+    font-size : 20px;
+}
+.text{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : column;
+    position : relative;
+    z-index : 10;
+    height : 80%;
+}
+.text-1{
+    font-size : 48px;
+    margin-bottom : 2px;
+}
+.text-2{
+    font-size : 24px;
+    margin-bottom : 2px;
+}
+.text-3{
+    font-size : 20px;
+    margin-bottom : 2px;
+}
+.email-get{
+display : flex;
+justify-content : center;
+align-items : center;
+margin : 20px;
+        
+ }
+.email input{
+width : 300px;
+height : 34px;
+margin: 5px;
+border : 1px solid white;
+background-color : black;
+font-size : 20px;
+color : white;
+padding : 3px;
+ }
+.email-get button{
+width : 135px;
+height : 34px;
+background-color : rgb(252,76,76);
+border-radius : 5px;
+font-weight : bolder;
+color : white;
+}
+.part-1-close{
+    border-bottom : 3px solid rgb(160,160,160);
+}
+
+       .part-2{
+            margin : 10px;
+            width : auto;
+            height : auto;
+            display : flex;
+            align-items : center;
+            justify-content : space-around;
+        }
+        .part-2-text{
+
+        }
+        .p2-text-1{
+            font-weight : bolder;
+            font-size : 40px;
+            margin-bottom : -10px;
+            padding-bottom : 0px;
+        }
+        .p2-text-2{
+            font-size : 20px;
+        }
+        .p2-img-video img{
+            width : 300px;
+            height : 300px;
+            position : absolute;
+
+        }
+        .p2-img-video video{
+            width : 300px;
+            height : 250px;
+            position : relative;
+            top : 0px;
+
+            
+        }
+
+        .part-3{
+                  height : auto;
+                  width : auto;
+                  display : flex;
+                  justify-content : space-around;
+                  align-items : center;
+        }
+        .p3-texts{
+
+            width : auto;
+        }
+        .p3-text-1{
+            font-weight : bolder;
+            font-size : 40px;
+        }
+        .p3-text-2{
+            font-size : 20px;
+        }
+        .part-4{
+            width : auto;
+            height : auto;
+            display : flex;
+            align-items : center;
+            justify-content : space-around;
+        }
+        .p4-text-1{
+            font-weight : bolder;
+            font-size : 40px;
+        }
+        .p4-text-2{
+            font-size : 20px;
+        }
+        .p4-image img{
+            position : relative;
+            z-index : 10;
+        }
+        .p4-image video{
+            position : absolute;
+            top : 280%;
+            width : 300px;
+            right : 50%;
+        }
+        .part-5{
+            margin : 15px;
+            width : auto;
+            height : auto;
+            display : flex;
+            justify-content : space-around;
+            align-items : center;
+        }
+        .p5-text-1{
+            font-weight : bolder;
+            font-size : 40px;
+        }
+        .p5-text-2{
+            font-size : 20px;
+        }
+       .part-6{
+           margin : 25px;
+           width : auto;
+           height : auto;
+       }
+       .p6-text-1{
+           text-align : center;
+           margin-bottom : 20px;
+           margin-top : 15px;
+           font-weight : bolder;
+           font-size : 40px;
+       }
+       .q1,.q2,.q3,.q4,.q5,.q6{
+           padding : 5px;
+           text-align : center;
+           display : flex;
+           align-items : center;
+           justify-content : center;
+           margin-left : 10px;
+           margin-right : 10px;
+                  }
+       .q1,.q2,.q3,.q4,.q5,.q6,.symbol{
+           background-color : rgb(122,121,113);
+           margin : 5;
+           margin-bottom : 10px;
+       }
+       .q1,.q2,.q3,.q4,.q5,.q6{
+           display: flex;
+           justify-content : space-between;
+            align-items : centre;
+       }
+        .symbol{
+        font-size : 25px;
+        }
+        .p6-text-2{
+            text-align : center;
+            margin-top : 20px;
+        }
+        .p6-email-get{
+            display : flex;
+            align-items : center;
+            justify-content : center;
+            margin : 15px;
+            width : auto;
+        }
+        .p6-email{
+            width : auto;
+            border : 2px solid rgb(200,200,200);
+            margin-right : 25px;
+        }
+        input{
+width : 300px;
+height : 34px;
+margin: 5px;
+border : 1px solid white;
+background-color : black;
+font-size : 20px;
+        }
+        button{
+            padding : 10px;
+            width : auto;
+            background-color : red;
+            text-align : left;
+            padding-left : 25px;
+            padding-right : 25px;
+        }
+        .p6-get{
+            display : flex;
+            font-size : 25px;
+            
+        }
+        .other-symbol{
+            font-size : 20px;
+            background-color : red;
+            color : whilte;
+        }
+        .part-7{
+            margin-top : 35px;
+        }
+        .contener{
+            display : grid;
+            grid-template-columns : auto auto auto auto;
+
+        }
+        .item{
+            width : auto;
+            height : auto;
+       }
+       .item a{
+           color : white;
+           boder : 1px solid white;
+       }
+        .number{
+            border-bottom:2px solid white;
+        }
