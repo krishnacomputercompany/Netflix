@@ -111,17 +111,22 @@ color : white;
         .p2-text-2{
             font-size : 20px;
         }
+    .p2-img-video{
+        position:relative;
+    }
         .p2-img-video img{
             width : 300px;
             height : 300px;
-            position : absolute;
+            position : relative;
+            z-index:10;
 
         }
         .p2-img-video video{
             width : 300px;
             height : 250px;
-            position : relative;
-            top : 0px;
+            position : absolute;
+            top : 65px;
+            
 
             
         }
