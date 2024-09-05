@@ -167,9 +167,9 @@ color : white;
         }
         .p4-image video{
             position : absolute;
-            top : 280%;
+            top : 0;
             width : 300px;
-            right : 50%;
+            right : 0;
         }
         .part-5{
             margin : 15px;
