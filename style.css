@@ -167,7 +167,7 @@ color : white;
         }
         .p4-image video{
             position : absolute;
-            top : 0;
+            top : 100px;
             width : 300px;
             right : 0;
         }
