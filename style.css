@@ -1,10 +1,10 @@
 *{
     margin : 0px;
     padding : 0px;
-    boder : 2px solid red;
+    
 }
 body{
-    background-color : black;
+    background-color : green;
     color : white;
 }
 .main{
