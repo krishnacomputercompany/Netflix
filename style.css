@@ -281,3 +281,50 @@ font-size : 20px;
         .number{
             border-bottom:2px solid white;
         }
+          @media screen and(max-width : 1300px)
+            nav{
+                max-width : 90vw;
+            }
+            .part-2{
+                flex-wrap : wrap;
+            }
+            .p2-img-video img{
+                width :  305px;
+            }
+            .p2-img-video video{
+                width : 305px;
+            }
+            .p2-text-1{
+                font-size : 32px;
+            }
+            .p2-text-2{
+                font-size : 18px;
+            }
+            .email-get{
+                display : flex;
+                flex-direction : column;
+                align-items : center;
+                justify-content : center;
+                gap : 16px;
+            }
+            .p6-text-1{
+                 text-align : center;
+                font-size : 32px;
+            }
+            .contener{
+                max-width : 90vw;
+                padding : 75px 0;
+                display : grid;
+                grid-template-column : 1fr 1fr;
+                gap : 25px;
+            }
+            .contener .item{
+                align-items : center;
+                display : flex;
+                flex-direction : column;
+                gap : 23px;
+            }
+            .contener a{
+                font-size : 14px;
+                color : white;
+            }
