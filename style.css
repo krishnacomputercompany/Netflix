@@ -122,11 +122,11 @@ color : white;
 
         }
         .p2-img-video video{
-            width : 250px;
+            width : 225px;
             height : 250px;
             position : absolute;
-            top : 0;
-            right : 0;
+            top : 5px;
+            right : 2px;
         }
 
         .part-3{
