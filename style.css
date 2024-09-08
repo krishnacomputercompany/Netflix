@@ -151,6 +151,7 @@ color : white;
             width : auto;
             height : auto;
             display : flex;
+            position : relative;
             align-items : center;
             justify-content : space-around;
         }
