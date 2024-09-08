@@ -281,7 +281,7 @@ font-size : 20px;
         .number{
             border-bottom:2px solid white;
         }
-          @media screen and(max-width : 1300px)
+    /*      @media screen and(max-width : 1300px)
             nav{
                 max-width : 90vw;
             }
@@ -328,3 +328,4 @@ font-size : 20px;
                 font-size : 14px;
                 color : white;
             }
+*/
