@@ -51,46 +51,46 @@ nav {
     z-index : 10;
     height : 80%;
 }
-.text-1{
-    font-size : 48px;
-    margin-bottom : 2px;
-}
-.text-2{
-    font-size : 24px;
-    margin-bottom : 2px;
-}
-.text-3{
-    font-size : 20px;
-    margin-bottom : 2px;
-}
-.email-get{
-display : flex;
-justify-content : center;
-align-items : center;
-margin : 20px;
-        
- }
-.email input{
-width : 300px;
-height : 34px;
-margin: 5px;
-border : 1px solid white;
-background-color : black;
-font-size : 20px;
-color : white;
-padding : 3px;
- }
-.email-get button{
-width : 135px;
-height : 34px;
-background-color : rgb(252,76,76);
-border-radius : 5px;
-font-weight : bolder;
-color : white;
-}
-.part-1-close{
-    border-bottom : 3px solid rgb(160,160,160);
-}
+        .text-1{
+            font-size : 48px;
+            margin-bottom : 2px;
+        }
+        .text-2{
+            font-size : 24px;
+            margin-bottom : 2px;
+        }
+        .text-3{
+            font-size : 20px;
+            margin-bottom : 2px;
+        }
+        .email-get{
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        margin : 20px;
+                
+         }
+        .email input{
+        width : 300px;
+        height : 34px;
+        margin: 5px;
+        border : 1px solid white;
+        background-color : black;
+        font-size : 20px;
+        color : white;
+        padding : 3px;
+         }
+        .email-get button{
+        width : 135px;
+        height : 34px;
+        background-color : rgb(252,76,76);
+        border-radius : 5px;
+        font-weight : bolder;
+        color : white;
+        }
+        .part-1-close{
+            border-bottom : 3px solid rgb(160,160,160);
+        }
 
        .part-2{
             margin : 10px;
@@ -130,12 +130,12 @@ color : white;
         }
 
         .part-3{
-                  height : auto;
-                  width : auto;
-                  display : flex;
-                  justify-content : space-around;
-                  align-items : center;
-        }
+           height : auto;
+           width : auto;
+           display : flex;
+           justify-content : space-around;
+           align-items : center;
+            }
         .p3-texts{
 
             width : auto;
@@ -188,7 +188,7 @@ color : white;
             font-size : 20px;
         }
        .part-6{
-           margin : 25px;
+           margin : 30px;
            width : auto;
            height : auto;
        }
@@ -218,6 +218,10 @@ color : white;
            justify-content : space-between;
             align-items : centre;
        }
+        .p6-questions{
+            margin-left : 142px;
+            margin-right : 142px;
+        }
         .symbol{
         font-size : 25px;
         }
@@ -238,13 +242,13 @@ color : white;
             margin-right : 25px;
         }
         input{
-width : 300px;
-height : 34px;
-margin: 5px;
-border : 1px solid white;
-background-color : black;
-font-size : 20px;
-        }
+        width : 300px;
+        height : 34px;
+        margin: 5px;
+        border : 1px solid white;
+        background-color : black;
+        font-size : 20px;
+                }
         button{
             padding : 10px;
             width : auto;
@@ -265,6 +269,7 @@ font-size : 20px;
         }
         .part-7{
             margin-top : 35px;
+            margin : 30px;
         }
         .contener{
             display : grid;
@@ -282,51 +287,63 @@ font-size : 20px;
         .number{
             border-bottom:2px solid white;
         }
-    /*      @media screen and(max-width : 1300px)
-            nav{
-                max-width : 90vw;
+@media only screen and(max-width : 600px)
+            {
+                .part-1{
+                    width : auto;
+                    height : auto;
+                    display : flex;
+                    justify-content : center;
+                    align-items : center;
+                }
+                .text-1{
+                    font-size : 20px;
+                }
+                .text-2,.text-3{
+                    font-size : 15px;
+                }
+                .email-get{
+                    display : flex;
+                    flex-direction : column;
+                }
+                nav{
+                    display : flex;
+                    justify-content : space-between;
+                    width : 300px;
+                }
+                span img{
+                    width : 50%;
+                }
+                .btn{
+                        font-size : 10px;
+                        width : 10%;
+                        height : 15%;
+                        display : flex;
+                        justify-content : center;
+                        align-items : center;
+                }
+                .part-2,.part-3{
+                    display : flex;
+                    flex-direction : column;
+                }
+                    .part-4{
+                        display : flex;
+                        flex-direction : column;
+                    }
+                    .p4-image video{
+                        top : 110px;
+                        right : 180px;
+                    }
+                    .p4-image img{
+                        width : 300px;
+                        height : 190px;
+                    }
+                    imag{
+                        width : 300px;
+                        height : 190px;
+                    }
+                    .part-5{
+                        display : flex;
+                        flex-direction : column;
+                    }
             }
-            .part-2{
-                flex-wrap : wrap;
-            }
-            .p2-img-video img{
-                width :  305px;
-            }
-            .p2-img-video video{
-                width : 305px;
-            }
-            .p2-text-1{
-                font-size : 32px;
-            }
-            .p2-text-2{
-                font-size : 18px;
-            }
-            .email-get{
-                display : flex;
-                flex-direction : column;
-                align-items : center;
-                justify-content : center;
-                gap : 16px;
-            }
-            .p6-text-1{
-                 text-align : center;
-                font-size : 32px;
-            }
-            .contener{
-                max-width : 90vw;
-                padding : 75px 0;
-                display : grid;
-                grid-template-column : 1fr 1fr;
-                gap : 25px;
-            }
-            .contener .item{
-                align-items : center;
-                display : flex;
-                flex-direction : column;
-                gap : 23px;
-            }
-            .contener a{
-                font-size : 14px;
-                color : white;
-            }
-*/
