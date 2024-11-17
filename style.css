@@ -289,6 +289,9 @@ nav {
         }
 @media only screen and(max-width : 600px)
             {
+                body{
+                    background-colour : red;
+                }
                 .part-1{
                     width : auto;
                     height : auto;
